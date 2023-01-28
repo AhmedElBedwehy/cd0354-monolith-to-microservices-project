@@ -15,7 +15,7 @@ spec:
         app: backend-user
     spec:
       containers:
-        - image: ahmedelbedwehy/udagram-api-user
+        - image: ahmedelbedwehy/udagram-api-user:latest
           name: backend-user
           imagePullPolicy: Always
           resources:

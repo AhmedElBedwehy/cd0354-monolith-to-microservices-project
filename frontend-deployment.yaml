@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: ahmedelbedwehy/udagram-frontend
+        image: ahmedelbedwehy/udagram-frontend:latest
         imagePullPolicy: Always
         resources:
           requests:
@@ -26,4 +26,4 @@ spec:
             memory: "2000Mi"
             cpu: "500m"
         ports:
-        - containerPort: 80
+        - containerPort: 8100

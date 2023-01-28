@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: reverseproxy
-        image: ahmedelbedwehy/reverseproxy
+        image: ahmedelbedwehy/reverseproxy:latest
         imagePullPolicy: Always
         resources:
           requests:
@@ -27,4 +27,4 @@ spec:
             memory: "2000Mi"
             cpu: "500m"
         ports:
-        - containerPort: 80
+        - containerPort: 8080
